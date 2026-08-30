@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "e08bb17c-82f7-4866-a73f-f46d86d13755")
 	(paper "A4")
+	(title_block
+		(title "PCF8583 Tester")
+		(company "Arley Silveira")
+		(comment 1 "Copyright (c) 2026 Arley Silveira")
+		(comment 2 "Licence: CERN-OHL-S v2")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers

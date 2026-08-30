@@ -11,7 +11,10 @@
 		(title "Minerva MK II Reimagined")
 		(date "2024-01-26")
 		(rev "0.0")
-		(company "Alvaro Alea Fernandez")
+		(company "Arley Silveira")
+		(comment 1 "Copyright (c) 2026 Arley Silveira - SMD redesign")
+		(comment 2 "Based on the KiCad capture (c) 2024 Alvaro Alea Fernandez")
+		(comment 3 "Licence: CERN-OHL-S v2")
 	)
 	(layers
 		(0 "F.Cu" signal)

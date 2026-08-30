@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "PCF8583 Tester")
+		(company "Arley Silveira")
+		(comment 1 "Copyright (c) 2026 Arley Silveira")
+		(comment 2 "Licence: CERN-OHL-S v2")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
