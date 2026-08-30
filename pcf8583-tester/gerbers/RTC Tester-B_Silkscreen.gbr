@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.0*%
+%TF.CreationDate,2025-07-08T22:51:07+02:00*%
+%TF.ProjectId,RTC Tester,52544320-5465-4737-9465-722e6b696361,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Legend,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.0) date 2025-07-08 22:51:07*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.508000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,IC1*%
+X119253000Y-113296700D02*
+G75*
+G02*
+X118491000Y-113296700I-381000J0D01*
+G01*
+X118491000Y-113296700D02*
+G75*
+G02*
+X119253000Y-113296700I381000J0D01*
+G01*
+%TD*%
+M02*
