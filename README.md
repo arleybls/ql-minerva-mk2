@@ -128,13 +128,19 @@ reserves them for this purpose.
 
 ## Licence
 
-CERN Open Hardware Licence Version 2, Strongly Reciprocal (CERN-OHL-S v2),
-https://ohwr.org/cern_ohl_s_v2.txt, the same licence as Alvaro's repository. The Minerva MK II
-design, the Minerva OS and the GAL equations remain the work of their original authors. This
-repository only carries the redesigned board.
+CERN Open Hardware Licence Version 2, Strongly Reciprocal (CERN-OHL-S v2), the same licence
+as Alvaro's repository. The full text is in [LICENSE](LICENSE). The Minerva MK II design, the
+Minerva OS and the GAL equations remain the work of their original authors. This repository
+only carries the redesigned board.
 
 Board redesign and tester (c) 2026 Arley Silveira. KiCad capture of the original (c) 2024
 Alvaro Alea Fernandez.
+
+Source location: https://github.com/arleybls/ql-minerva-mk2
+
+Modification notice (CERN-OHL-S 3.3b): in 2025-2026 Arley Silveira converted Alvaro Alea
+Fernandez's through-hole design to surface mount, added the on-board battery, rewired GAL pins
+6 and 7, replaced JP1 with SW1, added decoupling and wrote the PCF8583 tester.
 
 ## References
 
