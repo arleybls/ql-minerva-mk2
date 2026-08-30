@@ -49,6 +49,8 @@ alarm and the timer. It prints a checklist and a pass or fail verdict in about t
 Second-hand and old-stock PCF8583s vary a lot in quality, and this finds the bad ones. See
 [pcf8583-tester/README.md](pcf8583-tester/README.md).
 
+<img src="images/20260830_171819.jpg" alt="Tester output on the serial monitor: all tests passed" width="480">
+
 ## Repository layout
 
 ```

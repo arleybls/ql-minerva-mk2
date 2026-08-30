@@ -6,6 +6,8 @@ before fitting one to the QL Minerva MK2 board.
 Insert a chip in the socket, the test runs by itself and prints a checklist and
 a verdict on the serial port. Remove the chip, insert the next one.
 
+<img src="../images/20260830_171819.jpg" alt="Tester output on the serial monitor: all tests passed" width="720">
+
 ## Contents
 
 | Path | What |
