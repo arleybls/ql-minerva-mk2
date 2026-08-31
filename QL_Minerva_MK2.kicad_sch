@@ -5148,6 +5148,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 124.46) (xy 143.51 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2526843d-319c-4bf7-86c5-b0a063d59b26")
+	)
+	(wire
+		(pts
 			(xy 71.12 134.62) (xy 86.36 134.62)
 		)
 		(stroke
@@ -5155,6 +5165,16 @@
 			(type default)
 		)
 		(uuid "27694a95-313c-4861-a1e7-e60a9613c4cd")
+	)
+	(wire
+		(pts
+			(xy 143.51 134.62) (xy 143.51 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27730783-8eec-456c-83ca-8fa0837f624b")
 	)
 	(wire
 		(pts
@@ -7197,6 +7217,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Other:C_Small")
+		(at 143.51 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c161e2d-3169-4e77-a6fe-b63a52c6ede6")
+		(property "Reference" "C5"
+			(at 138.43 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uf"
+			(at 139.7 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 143.51 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d289f32e-af54-45b8-9e7c-e1e18e15bd27")
+		)
+		(pin "1"
+			(uuid "e7071d16-8ff3-4202-af13-030509928d1a")
+		)
+		(instances
+			(project "QL_Minerva_MK2"
+				(path "/0617602b-62d8-4799-89c5-d98fa4eb47c1"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 204.47 43.18 0)
 		(unit 1)
@@ -7919,6 +8019,83 @@
 			(project "QL_Minerva_MK2"
 				(path "/0617602b-62d8-4799-89c5-d98fa4eb47c1"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ec0fc5e-d719-49e9-b036-0eeedc7ff5f4")
+		(property "Reference" "#PWR030"
+			(at 143.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "900cdf4b-96c0-4379-bb90-d7befbf7e602")
+		)
+		(instances
+			(project "QL_Minerva_MK2"
+				(path "/0617602b-62d8-4799-89c5-d98fa4eb47c1"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9283,6 +9460,84 @@
 			(project "QL_Minerva_MK2"
 				(path "/0617602b-62d8-4799-89c5-d98fa4eb47c1"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 143.51 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93c89199-eacd-4713-8600-b2dde84c21d0")
+		(property "Reference" "#PWR028"
+			(at 143.51 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 143.51 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 143.51 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bd85903-db3f-4f75-93e0-78ba540668cb")
+		)
+		(instances
+			(project "QL_Minerva_MK2"
+				(path "/0617602b-62d8-4799-89c5-d98fa4eb47c1"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
